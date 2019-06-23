@@ -1,0 +1,1478 @@
+fileFormatVersion: 2
+guid: 7348f1a21853a471a992fe7b9be68f84
+timeCreated: 1519856874
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Abdomen
+    100002: Chest
+    100004: //RootNode
+    100006: Head_comp
+    100008: Hip
+    100010: joint1
+    100012: joint10
+    100014: joint11
+    100016: joint12
+    100018: joint13
+    100020: joint2
+    100022: joint3
+    100024: joint4
+    100026: joint5
+    100028: joint6
+    100030: joint7
+    100032: joint8
+    100034: joint9
+    100036: L1DistPhalanx
+    100038: L1MidPhalanx
+    100040: L1ProxPhalanx
+    100042: L2DistPhalanx
+    100044: L2MidPhalanx
+    100046: L2ProxPhalanx
+    100048: L3DistPhalanx
+    100050: L3MidPhalanx
+    100052: L3ProxPhalanx
+    100054: L4DistPhalanx
+    100056: L4MidPhalanx
+    100058: L4ProxPhalanx
+    100060: L5DistPhalanx
+    100062: L5MidPhalanx
+    100064: L5ProxPhalanx
+    100066: Left_Collar
+    100068: Left_Foot
+    100070: Left_Forearm
+    100072: Left_Hand
+    100074: Left_Shin
+    100076: Left_Shoulder
+    100078: Left_Thigh
+    100080: Left_Toe
+    100082: Neck
+    100084: R1DistPhalanx
+    100086: R1MidPhalanx
+    100088: R1ProxPhalanx
+    100090: R2DistPhalanx
+    100092: R2MidPhalanx
+    100094: R2ProxPhalanx
+    100096: R3DistPhalanx
+    100098: R3MidPhalanx
+    100100: R3ProxPhalanx
+    100102: R4DistPhalanx
+    100104: R4MidPhalanx
+    100106: R4ProxPhalanx
+    100108: R5DistPhalanx
+    100110: R5MidPhalanx
+    100112: R5ProxPhalanx
+    100114: Right_Collar
+    100116: Right_Foot
+    100118: Right_Forearm
+    100120: Right_Hand
+    100122: Right_Shin
+    100124: Right_Shoulder
+    100126: Right_Thigh
+    100128: Right_Toe
+    100130: bvhImport
+    400000: Abdomen
+    400002: Chest
+    400004: //RootNode
+    400006: Head_comp
+    400008: Hip
+    400010: joint1
+    400012: joint10
+    400014: joint11
+    400016: joint12
+    400018: joint13
+    400020: joint2
+    400022: joint3
+    400024: joint4
+    400026: joint5
+    400028: joint6
+    400030: joint7
+    400032: joint8
+    400034: joint9
+    400036: L1DistPhalanx
+    400038: L1MidPhalanx
+    400040: L1ProxPhalanx
+    400042: L2DistPhalanx
+    400044: L2MidPhalanx
+    400046: L2ProxPhalanx
+    400048: L3DistPhalanx
+    400050: L3MidPhalanx
+    400052: L3ProxPhalanx
+    400054: L4DistPhalanx
+    400056: L4MidPhalanx
+    400058: L4ProxPhalanx
+    400060: L5DistPhalanx
+    400062: L5MidPhalanx
+    400064: L5ProxPhalanx
+    400066: Left_Collar
+    400068: Left_Foot
+    400070: Left_Forearm
+    400072: Left_Hand
+    400074: Left_Shin
+    400076: Left_Shoulder
+    400078: Left_Thigh
+    400080: Left_Toe
+    400082: Neck
+    400084: R1DistPhalanx
+    400086: R1MidPhalanx
+    400088: R1ProxPhalanx
+    400090: R2DistPhalanx
+    400092: R2MidPhalanx
+    400094: R2ProxPhalanx
+    400096: R3DistPhalanx
+    400098: R3MidPhalanx
+    400100: R3ProxPhalanx
+    400102: R4DistPhalanx
+    400104: R4MidPhalanx
+    400106: R4ProxPhalanx
+    400108: R5DistPhalanx
+    400110: R5MidPhalanx
+    400112: R5ProxPhalanx
+    400114: Right_Collar
+    400116: Right_Foot
+    400118: Right_Forearm
+    400120: Right_Hand
+    400122: Right_Shin
+    400124: Right_Shoulder
+    400126: Right_Thigh
+    400128: Right_Toe
+    400130: bvhImport
+    7400000: 1001
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: "Copied Avatar Rig Configuration mis-match. Bone length in
+      copied configuration does not match position in animation file:\n\t'Left_Thigh'
+      : position error = 173.930176 mm\n\t'Left_Shin' : position error = 413.309509
+      mm\n\t'Left_Foot' : position error = 373.605957 mm\n\t'Left_Toe' : position
+      error = 109.796539 mm\n\t'Right_Thigh' : position error = 173.930176 mm\n\t'Right_Shin'
+      : position error = 413.309509 mm\n\t'Right_Foot' : position error = 373.605957
+      mm\n\t'Right_Toe' : position error = 109.796539 mm\n"
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'Abdomen' is inbetween humanoid transforms and
+      has rotation animation that will be discarded.\n\t'L3ProxPhalanx' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'R3ProxPhalanx'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: 1001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 1745
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: Hip
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Left_Thigh
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Right_Thigh
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Left_Shin
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Right_Shin
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Left_Foot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Right_Foot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Chest
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Neck
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Left_Collar
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Right_Collar
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Left_Shoulder
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Right_Shoulder
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Left_Forearm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Right_Forearm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Left_Hand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Right_Hand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Left_Toe
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Right_Toe
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L2ProxPhalanx
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L2MidPhalanx
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L2DistPhalanx
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L1ProxPhalanx
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L1MidPhalanx
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L1DistPhalanx
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L3MidPhalanx
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L3DistPhalanx
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: joint4
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L4ProxPhalanx
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L4MidPhalanx
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L4DistPhalanx
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L5ProxPhalanx
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L5MidPhalanx
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L5DistPhalanx
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R2ProxPhalanx
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R2MidPhalanx
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R2DistPhalanx
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R1ProxPhalanx
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R1MidPhalanx
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R1DistPhalanx
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R3MidPhalanx
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R3DistPhalanx
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: joint9
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R4ProxPhalanx
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R4MidPhalanx
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R4DistPhalanx
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R5ProxPhalanx
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R5MidPhalanx
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R5DistPhalanx
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Rachel(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bvhImport
+      parentName: Rachel(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hip
+      parentName: bvhImport
+      position: {x: 0, y: 1.2042052, z: 0.237361}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Abdomen
+      parentName: Hip
+      position: {x: -0, y: -0.047353, z: -0.05}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chest
+      parentName: Abdomen
+      position: {x: -0, y: 0.132153, z: 0.007439}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Left_Collar
+      parentName: Chest
+      position: {x: -0.02282, y: 0.250342, z: 0.017193}
+      rotation: {x: 0, y: -0.13052619, z: -0, w: 0.9914449}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Left_Shoulder
+      parentName: Left_Collar
+      position: {x: -0.15421, y: 0, z: 0}
+      rotation: {x: -0.05808586, y: 0.12456563, z: 0.028136889, w: 0.99011004}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Left_Forearm
+      parentName: Left_Shoulder
+      position: {x: -0.265212, y: 0, z: 0}
+      rotation: {x: -0.0018435377, y: 0.043862943, z: -0.014003074, w: 0.9989377}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Left_Hand
+      parentName: Left_Forearm
+      position: {x: -0.27571, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L1ProxPhalanx
+      parentName: Left_Hand
+      position: {x: -0.014142, y: 0.001733, z: 0.014142}
+      rotation: {x: 0.56469744, y: 0.04616455, z: 0.032029532, w: 0.8233831}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L1MidPhalanx
+      parentName: L1ProxPhalanx
+      position: {x: -0.04, y: 0, z: 0}
+      rotation: {x: 0.0019308026, y: -0.03416333, z: 0.0018647346, w: 0.99941266}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L1DistPhalanx
+      parentName: L1MidPhalanx
+      position: {x: -0.035, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint2
+      parentName: L1DistPhalanx
+      position: {x: -0.029, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L2ProxPhalanx
+      parentName: Left_Hand
+      position: {x: -0.0821037, y: 0.001578, z: 0.0219996}
+      rotation: {x: -0.003223062, y: 0.29222912, z: 0.04258821, w: 0.95539415}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L2MidPhalanx
+      parentName: L2ProxPhalanx
+      position: {x: -0.04, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L2DistPhalanx
+      parentName: L2MidPhalanx
+      position: {x: -0.028, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint3
+      parentName: L2DistPhalanx
+      position: {x: -0.02, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L3ProxPhalanx
+      parentName: Left_Hand
+      position: {x: -0.083, y: 0, z: 0}
+      rotation: {x: 0, y: -0.071594, z: -0, w: 0.9974339}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L3MidPhalanx
+      parentName: L3ProxPhalanx
+      position: {x: -0.053, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L3DistPhalanx
+      parentName: L3MidPhalanx
+      position: {x: -0.03, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint4
+      parentName: L3DistPhalanx
+      position: {x: -0.023, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L4ProxPhalanx
+      parentName: Left_Hand
+      position: {x: -0.077274, y: -0.000761, z: -0.0207055}
+      rotation: {x: 0, y: -0.079633445, z: -0, w: 0.99682426}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L4MidPhalanx
+      parentName: L4ProxPhalanx
+      position: {x: -0.05, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L4DistPhalanx
+      parentName: L4MidPhalanx
+      position: {x: -0.03, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint5
+      parentName: L4DistPhalanx
+      position: {x: -0.023, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L5ProxPhalanx
+      parentName: Left_Hand
+      position: {x: -0.0675499, y: -0.001644, z: -0.039}
+      rotation: {x: 0, y: -0.09386054, z: -0, w: 0.9955854}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L5MidPhalanx
+      parentName: L5ProxPhalanx
+      position: {x: -0.04, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L5DistPhalanx
+      parentName: L5MidPhalanx
+      position: {x: -0.021, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint6
+      parentName: L5DistPhalanx
+      position: {x: -0.022, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Right_Collar
+      parentName: Chest
+      position: {x: 0.02282, y: 0.250342, z: 0.017193}
+      rotation: {x: 0, y: 0.13052619, z: -0, w: 0.9914449}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Right_Shoulder
+      parentName: Right_Collar
+      position: {x: 0.15421, y: 0, z: 0}
+      rotation: {x: 0.0028474259, y: -0.13049515, z: -0.021628276, w: 0.991209}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Right_Forearm
+      parentName: Right_Shoulder
+      position: {x: 0.265212, y: 0, z: 0}
+      rotation: {x: -0.0020751588, y: -0.036513798, z: 0.015754582, w: 0.9992068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Right_Hand
+      parentName: Right_Forearm
+      position: {x: 0.27571, y: 0.000003, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R1ProxPhalanx
+      parentName: Right_Hand
+      position: {x: 0.014142, y: 0.001733, z: 0.014142}
+      rotation: {x: 0.5651557, y: -0.043973606, z: -0.033114836, w: 0.82314575}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R1MidPhalanx
+      parentName: R1ProxPhalanx
+      position: {x: 0.04, y: 0, z: 0}
+      rotation: {x: -0.004262506, y: 0.03521673, z: 0.006276728, w: 0.99935097}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R1DistPhalanx
+      parentName: R1MidPhalanx
+      position: {x: 0.035, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint7
+      parentName: R1DistPhalanx
+      position: {x: 0.029, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R2ProxPhalanx
+      parentName: Right_Hand
+      position: {x: 0.0821037, y: 0.001578, z: 0.0219996}
+      rotation: {x: -0.00013117421, y: -0.2922704, z: -0.0017895516, w: 0.9563341}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R2MidPhalanx
+      parentName: R2ProxPhalanx
+      position: {x: 0.04, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R2DistPhalanx
+      parentName: R2MidPhalanx
+      position: {x: 0.028, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint8
+      parentName: R2DistPhalanx
+      position: {x: 0.02, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R3ProxPhalanx
+      parentName: Right_Hand
+      position: {x: 0.083, y: 0, z: 0}
+      rotation: {x: 0, y: 0.07844857, z: -0, w: 0.9969182}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R3MidPhalanx
+      parentName: R3ProxPhalanx
+      position: {x: 0.053, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R3DistPhalanx
+      parentName: R3MidPhalanx
+      position: {x: 0.03, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint9
+      parentName: R3DistPhalanx
+      position: {x: 0.023, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R4ProxPhalanx
+      parentName: Right_Hand
+      position: {x: 0.077274, y: -0.000761, z: -0.0207055}
+      rotation: {x: 0, y: 0.0726529, z: -0, w: 0.9973573}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R4MidPhalanx
+      parentName: R4ProxPhalanx
+      position: {x: 0.05, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R4DistPhalanx
+      parentName: R4MidPhalanx
+      position: {x: 0.03, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint10
+      parentName: R4DistPhalanx
+      position: {x: 0.023, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R5ProxPhalanx
+      parentName: Right_Hand
+      position: {x: 0.0675499, y: -0.001644, z: -0.039}
+      rotation: {x: 0, y: 0.073670894, z: -0, w: 0.9972826}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R5MidPhalanx
+      parentName: R5ProxPhalanx
+      position: {x: 0.04, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R5DistPhalanx
+      parentName: R5MidPhalanx
+      position: {x: 0.021, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint11
+      parentName: R5DistPhalanx
+      position: {x: 0.022, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Neck
+      parentName: Chest
+      position: {x: -0, y: 0.3078, z: 0.006161}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RachelTexture_NoNecklace_wSkeleton:JtSkullA
+      parentName: Neck
+      position: {x: -9.26517e-15, y: 0.08569361, z: 0.012841695}
+      rotation: {x: 0.5218859, y: -0.47711125, z: -0.5218859, w: 0.47711125}
+      scale: {x: 0.0095, y: 0.0095, z: 0.0095}
+    - name: RachelTexture_NoNecklace_wSkeleton:JtSkullB
+      parentName: RachelTexture_NoNecklace_wSkeleton:JtSkullA
+      position: {x: -21.081762, y: 1.7763568e-15, z: -3.5549428e-16}
+      rotation: {x: 1, y: -0, z: 0, w: -2.8327693e-16}
+      scale: {x: 0.0095, y: 0.0095, z: 0.0095}
+    - name: RachelTexture_NoNecklace_wSkeleton:JtLowerFaceParent
+      parentName: RachelTexture_NoNecklace_wSkeleton:JtSkullA
+      position: {x: -5.356791, y: 0.52909565, z: -9.0103666e-17}
+      rotation: {x: 0.5218859, y: -0.47711125, z: -0.5218859, w: -0.47711125}
+      scale: {x: 0.0095, y: 0.0095, z: 0.0095}
+    - name: RachelTexture_NoNecklace_wSkeleton:JtCheekUpperLf
+      parentName: RachelTexture_NoNecklace_wSkeleton:JtLowerFaceParent
+      position: {x: -3.4757957, y: 0.5075232, z: 10.26298}
+      rotation: {x: -0.013636663, y: 0.58260286, z: -0.01901587, w: 0.81242007}
+      scale: {x: 0.0095, y: 0.0095, z: 0.0095}
+    - name: RachelTexture_NoNecklace_wSkeleton:JtLipUpperMid
+      parentName: RachelTexture_NoNecklace_wSkeleton:JtLowerFaceParent
+      position: {x: -7.645255e-15, y: -3.3179657, z: 11.046032}
+      rotation: {x: 0.102801934, y: 0.699594, z: 0.102801934, w: 0.699594}
+      scale: {x: 0.0095, y: 0.0095, z: 0.0095}
+    - name: RachelTexture_NoNecklace_wSkeleton:JtCheekUpperRt
+      parentName: RachelTexture_NoNecklace_wSkeleton:JtLowerFaceParent
+      position: {x: 3.4757957, y: 0.5075232, z: 10.26298}
+      rotation: {x: 0.81242007, y: 0.019015867, z: 0.5826028, w: 0.013636663}
+      scale: {x: 0.0095, y: 0.0095, z: 0.0095}
+    - name: RachelTexture_NoNecklace_wSkeleton:JtLipUpperLf
+      parentName: RachelTexture_NoNecklace_wSkeleton:JtLowerFaceParent
+      position: {x: -1.1742276, y: -3.4702802, z: 10.5630455}
+      rotation: {x: 0.104802646, y: 0.6586158, z: 0.11709845, w: 0.73588693}
+      scale: {x: 0.0095, y: 0.0095, z: 0.0095}
+    - name: RachelTexture_NoNecklace_wSkeleton:JtJaw
+      parentName: RachelTexture_NoNecklace_wSkeleton:JtLowerFaceParent
+      position: {x: -6.5434926e-15, y: -1.2939469, z: 2.1488326}
+      rotation: {x: 0.49148878, y: 0.50836873, z: 0.49148878, w: 0.50836873}
+      scale: {x: 0.0095, y: 0.0095, z: 0.0095}
+    - name: RachelTexture_NoNecklace_wSkeleton:JtTongueA
+      parentName: RachelTexture_NoNecklace_wSkeleton:JtJaw
+      position: {x: -2.762163, y: 2.466116, z: 2.969741e-14}
+      rotation: {x: 0, y: 0, z: -0.71050143, w: 0.7036958}
+      scale: {x: 0.0095, y: 0.0095, z: 0.0095}
+    - name: RachelTexture_NoNecklace_wSkeleton:JtTongueB
+      parentName: RachelTexture_NoNecklace_wSkeleton:JtTongueA
+      position: {x: -2.0645177, y: 2.842171e-14, z: -5.9836435e-16}
+      rotation: {x: 0, y: 0, z: 0.032400098, w: 0.999475}
+      scale: {x: 0.0095, y: 0.0095, z: 0.0095}
+    - name: RachelTexture_NoNecklace_wSkeleton:JtTongueC
+      parentName: RachelTexture_NoNecklace_wSkeleton:JtTongueB
+      position: {x: -1.9078301, y: 2.842171e-14, z: -2.3252015e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.0095, y: 0.0095, z: 0.0095}
+    - name: RachelTexture_NoNecklace_wSkeleton:JtJawBack
+      parentName: RachelTexture_NoNecklace_wSkeleton:JtJaw
+      position: {x: -4.30002, y: 3.5527137e-15, z: 4.991713e-15}
+      rotation: {x: 0, y: 0, z: -0.6170074, w: 0.78695744}
+      scale: {x: 0.0095, y: 0.0095, z: 0.0095}
+    - name: RachelTexture_NoNecklace_wSkeleton:JtJawFront
+      parentName: RachelTexture_NoNecklace_wSkeleton:JtJawBack
+      position: {x: -6.4682217, y: -2.842171e-14, z: -6.3414106e-16}
+      rotation: {x: 0, y: 0, z: -0.52511805, w: 0.85102946}
+      scale: {x: 0.0095, y: 0.0095, z: 0.0095}
+    - name: RachelTexture_NoNecklace_wSkeleton:JtLipLowerRt
+      parentName: RachelTexture_NoNecklace_wSkeleton:JtJawFront
+      position: {x: -3.318654, y: 0.43718308, z: 1.0296614}
+      rotation: {x: 0.15911098, y: 0.213016, z: 0.9635516, w: 0.029602844}
+      scale: {x: 0.0095, y: 0.0095, z: 0.0095}
+    - name: RachelTexture_NoNecklace_wSkeleton:JtLipLowerMid
+      parentName: RachelTexture_NoNecklace_wSkeleton:JtJawFront
+      position: {x: -3.383457, y: 0, z: -3.9943194e-15}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.0095, y: 0.0095, z: 0.0095}
+    - name: RachelTexture_NoNecklace_wSkeleton:JtLipLowerLf
+      parentName: RachelTexture_NoNecklace_wSkeleton:JtJawFront
+      position: {x: -3.318654, y: 0.43718308, z: -1.0296614}
+      rotation: {x: 0.213016, y: -0.15911098, z: -0.029602842, w: 0.9635516}
+      scale: {x: 0.0095, y: 0.0095, z: 0.0095}
+    - name: RachelTexture_NoNecklace_wSkeleton:JtLipUpperRt
+      parentName: RachelTexture_NoNecklace_wSkeleton:JtLowerFaceParent
+      position: {x: 1.1742276, y: -3.4702802, z: 10.5630455}
+      rotation: {x: 0.73588693, y: -0.11709845, z: 0.6586158, w: -0.104802646}
+      scale: {x: 0.0095, y: 0.0095, z: 0.0095}
+    - name: RachelTexture_NoNecklace_wSkeleton:JtLipCornerRt
+      parentName: RachelTexture_NoNecklace_wSkeleton:JtLowerFaceParent
+      position: {x: 2.5194662, y: -3.5361068, z: 9.389475}
+      rotation: {x: 0.7814209, y: -0.13770236, z: 0.59938556, w: -0.105624005}
+      scale: {x: 0.0095, y: 0.0095, z: 0.0095}
+    - name: RachelTexture_NoNecklace_wSkeleton:JtLipCornerLf
+      parentName: RachelTexture_NoNecklace_wSkeleton:JtLowerFaceParent
+      position: {x: -2.5194662, y: -3.5361068, z: 9.389475}
+      rotation: {x: 0.105624005, y: 0.59938556, z: 0.13770236, w: 0.7814209}
+      scale: {x: 0.0095, y: 0.0095, z: 0.0095}
+    - name: RachelTexture_NoNecklace_wSkeleton:JtCheekLowerLf
+      parentName: RachelTexture_NoNecklace_wSkeleton:JtLowerFaceParent
+      position: {x: -4.432921, y: -2.4240222, z: 9.040794}
+      rotation: {x: 0.062344953, y: 0.52534574, z: 0.10000535, w: 0.84268856}
+      scale: {x: 0.0095, y: 0.0095, z: 0.0095}
+    - name: RachelTexture_NoNecklace_wSkeleton:JtCheekLowerRt
+      parentName: RachelTexture_NoNecklace_wSkeleton:JtLowerFaceParent
+      position: {x: 4.432921, y: -2.4240222, z: 9.040794}
+      rotation: {x: 0.84268856, y: -0.10000535, z: 0.52534574, w: -0.062344953}
+      scale: {x: 0.0095, y: 0.0095, z: 0.0095}
+    - name: RachelTexture_NoNecklace_wSkeleton:JtUpperFaceParent
+      parentName: RachelTexture_NoNecklace_wSkeleton:JtSkullA
+      position: {x: -10.320488, y: -3.161343, z: -1.7538104e-16}
+      rotation: {x: 0.5218859, y: -0.47711125, z: -0.5218859, w: -0.47711125}
+      scale: {x: 0.0095, y: 0.0095, z: 0.0095}
+    - name: RachelTexture_NoNecklace_wSkeleton:JtUpperNoseRt
+      parentName: RachelTexture_NoNecklace_wSkeleton:JtUpperFaceParent
+      position: {x: 1.1249543, y: -4.0032825, z: 13.63749}
+      rotation: {x: 0.6544668, y: -0.4773006, z: 0.473781, w: -0.34552702}
+      scale: {x: 0.0095, y: 0.0095, z: 0.0095}
+    - name: RachelTexture_NoNecklace_wSkeleton:JtLowerNoseRt
+      parentName: RachelTexture_NoNecklace_wSkeleton:JtUpperNoseRt
+      position: {x: 1.9697804, y: 7.1054274e-15, z: -3.1086245e-15}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.0095, y: 0.0095, z: 0.0095}
+    - name: RachelTexture_NoNecklace_wSkeleton:JtUpperNoseLf
+      parentName: RachelTexture_NoNecklace_wSkeleton:JtUpperFaceParent
+      position: {x: -1.1249543, y: -4.0032825, z: 13.63749}
+      rotation: {x: 0.34552702, y: 0.473781, z: 0.4773006, w: 0.6544668}
+      scale: {x: 0.0095, y: 0.0095, z: 0.0095}
+    - name: RachelTexture_NoNecklace_wSkeleton:JtLowerNoseLf
+      parentName: RachelTexture_NoNecklace_wSkeleton:JtUpperNoseLf
+      position: {x: -1.9697804, y: -7.1054274e-15, z: -8.881784e-15}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.0095, y: 0.0095, z: 0.0095}
+    - name: RachelTexture_NoNecklace_wSkeleton:JtEyelidLowerLf
+      parentName: RachelTexture_NoNecklace_wSkeleton:JtUpperFaceParent
+      position: {x: -2.8860676, y: -3.0963151, z: 13.066222}
+      rotation: {x: 0.14516735, y: 0.69204515, z: 0.14516735, w: 0.69204515}
+      scale: {x: 0.0095, y: 0.0095, z: 0.0095}
+    - name: RachelTexture_NoNecklace_wSkeleton:JtEyelidUpperLf
+      parentName: RachelTexture_NoNecklace_wSkeleton:JtUpperFaceParent
+      position: {x: -2.8860676, y: -2.0021427, z: 13.142877}
+      rotation: {x: -0.09601202, y: 0.7005581, z: -0.09601202, w: 0.7005581}
+      scale: {x: 0.0095, y: 0.0095, z: 0.0095}
+    - name: RachelTexture_NoNecklace_wSkeleton:JtEyelidUpperRt
+      parentName: RachelTexture_NoNecklace_wSkeleton:JtUpperFaceParent
+      position: {x: 2.8860676, y: -2.0021427, z: 13.142877}
+      rotation: {x: 0.7005581, y: 0.09601202, z: 0.7005581, w: 0.09601202}
+      scale: {x: 0.0095, y: 0.0095, z: 0.0095}
+    - name: RachelTexture_NoNecklace_wSkeleton:JtEyelidLowerRt
+      parentName: RachelTexture_NoNecklace_wSkeleton:JtUpperFaceParent
+      position: {x: 2.8860676, y: -3.0963151, z: 13.066222}
+      rotation: {x: 0.69204515, y: -0.14516735, z: 0.69204515, w: -0.14516735}
+      scale: {x: 0.0095, y: 0.0095, z: 0.0095}
+    - name: RachelTexture_NoNecklace_wSkeleton:JtEyeRt
+      parentName: RachelTexture_NoNecklace_wSkeleton:JtUpperFaceParent
+      position: {x: 2.8860676, y: -2.4408185, z: 11.572523}
+      rotation: {x: -0, y: 0, z: 1, w: -6.123234e-17}
+      scale: {x: 0.0095, y: 0.0095, z: 0.0095}
+    - name: RachelTexture_NoNecklace_wSkeleton:JtBrowParentLf
+      parentName: RachelTexture_NoNecklace_wSkeleton:JtUpperFaceParent
+      position: {x: -3.190202, y: -0.7526405, z: 9.328027}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.0095, y: 0.0095, z: 0.0095}
+    - name: RachelTexture_NoNecklace_wSkeleton:JtEyebrow01Lf
+      parentName: RachelTexture_NoNecklace_wSkeleton:JtBrowParentLf
+      position: {x: 2.1468174, y: -0.81122434, z: 4.488444}
+      rotation: {x: 0.068293676, y: 0.8432542, z: 0.043038677, w: 0.53141886}
+      scale: {x: 0.0095, y: 0.0095, z: 0.0095}
+    - name: RachelTexture_NoNecklace_wSkeleton:JtEyebrow02Lf
+      parentName: RachelTexture_NoNecklace_wSkeleton:JtBrowParentLf
+      position: {x: 0.76280147, y: -0.353, z: 4.436036}
+      rotation: {x: 0.029897206, y: 0.7640945, z: 0.025195004, w: 0.64391845}
+      scale: {x: 0.0095, y: 0.0095, z: 0.0095}
+    - name: RachelTexture_NoNecklace_wSkeleton:JtEyebrow03Lf
+      parentName: RachelTexture_NoNecklace_wSkeleton:JtBrowParentLf
+      position: {x: -0.86201715, y: -0.32468638, z: 3.7172372}
+      rotation: {x: 0.026396548, y: 0.6215721, z: 0.033218298, w: 0.7822071}
+      scale: {x: 0.0095, y: 0.0095, z: 0.0095}
+    - name: RachelTexture_NoNecklace_wSkeleton:JtEyebrow04Lf
+      parentName: RachelTexture_NoNecklace_wSkeleton:JtBrowParentLf
+      position: {x: -1.836316, y: -0.94007564, z: 2.7969434}
+      rotation: {x: 0.0648432, y: 0.47051173, z: 0.12014205, w: 0.8717683}
+      scale: {x: 0.0095, y: 0.0095, z: 0.0095}
+    - name: RachelTexture_NoNecklace_wSkeleton:JtEyeLf
+      parentName: RachelTexture_NoNecklace_wSkeleton:JtUpperFaceParent
+      position: {x: -2.8860676, y: -2.4408185, z: 11.572523}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.0095, y: 0.0095, z: 0.0095}
+    - name: RachelTexture_NoNecklace_wSkeleton:JtBrowParentRt
+      parentName: RachelTexture_NoNecklace_wSkeleton:JtUpperFaceParent
+      position: {x: 3.190202, y: -0.7526405, z: 9.328027}
+      rotation: {x: -0, y: 0, z: 1, w: -6.123234e-17}
+      scale: {x: 0.0095, y: 0.0095, z: 0.0095}
+    - name: RachelTexture_NoNecklace_wSkeleton:JtEyebrow01Rt
+      parentName: RachelTexture_NoNecklace_wSkeleton:JtBrowParentRt
+      position: {x: 2.1468174, y: 0.81122434, z: 4.488444}
+      rotation: {x: -0.043038677, y: -0.53141886, z: 0.068293676, w: 0.8432542}
+      scale: {x: 0.0095, y: 0.0095, z: 0.0095}
+    - name: RachelTexture_NoNecklace_wSkeleton:JtEyebrow02Rt
+      parentName: RachelTexture_NoNecklace_wSkeleton:JtBrowParentRt
+      position: {x: 0.7628014, y: 0.35277817, z: 4.436036}
+      rotation: {x: -0.025195004, y: -0.64391845, z: 0.029897206, w: 0.7640945}
+      scale: {x: 0.0095, y: 0.0095, z: 0.0095}
+    - name: RachelTexture_NoNecklace_wSkeleton:JtEyebrow04Rt
+      parentName: RachelTexture_NoNecklace_wSkeleton:JtBrowParentRt
+      position: {x: -1.8363159, y: 0.94007564, z: 2.7969434}
+      rotation: {x: 0.12014205, y: 0.8717683, z: -0.0648432, w: -0.47051173}
+      scale: {x: 0.0095, y: 0.0095, z: 0.0095}
+    - name: RachelTexture_NoNecklace_wSkeleton:JtEyebrow03Rt
+      parentName: RachelTexture_NoNecklace_wSkeleton:JtBrowParentRt
+      position: {x: -0.8620173, y: 0.32468638, z: 3.7172372}
+      rotation: {x: -0.033218298, y: -0.7822071, z: 0.026396548, w: 0.6215721}
+      scale: {x: 0.0095, y: 0.0095, z: 0.0095}
+    - name: RachelTexture_NoNecklace_wSkeleton:JtEarLf
+      parentName: RachelTexture_NoNecklace_wSkeleton:JtUpperFaceParent
+      position: {x: -7.123732, y: -4.847901, z: 4.2777195}
+      rotation: {x: 0.07237499, y: 0.26314253, z: 0.2551261, w: 0.9275929}
+      scale: {x: 0.0095, y: 0.0095, z: 0.0095}
+    - name: RachelTexture_NoNecklace_wSkeleton:JtEarRt
+      parentName: RachelTexture_NoNecklace_wSkeleton:JtUpperFaceParent
+      position: {x: 6.932848, y: -4.847901, z: 4.2777195}
+      rotation: {x: 0.92759293, y: -0.25512612, z: 0.26314256, w: -0.07237499}
+      scale: {x: 0.0095, y: 0.0095, z: 0.0095}
+    - name: Left_Thigh
+      parentName: Hip
+      position: {x: -0.1118, y: -0.1612, z: -0.0442}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Left_Shin
+      parentName: Left_Thigh
+      position: {x: -0, y: -0.477856, z: 0}
+      rotation: {x: 0.043619387, y: 0, z: -0, w: 0.99904823}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Left_Foot
+      parentName: Left_Shin
+      position: {x: -0, y: -0.431952, z: 0}
+      rotation: {x: 0.25881907, y: 0, z: -0, w: 0.9659259}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Left_Toe
+      parentName: Left_Foot
+      position: {x: -0, y: -0.0442, z: 0.119}
+      rotation: {x: -0.25881907, y: 0, z: -0, w: 0.9659259}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint12
+      parentName: Left_Toe
+      position: {x: -0, y: 0, z: 0.07}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Right_Thigh
+      parentName: Hip
+      position: {x: 0.1118, y: -0.1612, z: -0.0442}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Right_Shin
+      parentName: Right_Thigh
+      position: {x: -0, y: -0.477856, z: 0}
+      rotation: {x: 0.043619387, y: 0, z: -0, w: 0.99904823}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Right_Foot
+      parentName: Right_Shin
+      position: {x: -0, y: -0.431952, z: 0}
+      rotation: {x: 0.25881907, y: 0, z: -0, w: 0.9659259}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Right_Toe
+      parentName: Right_Foot
+      position: {x: -0, y: -0.0442, z: 0.119}
+      rotation: {x: -0.25881907, y: 0, z: -0, w: 0.9659259}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint13
+      parentName: Right_Toe
+      position: {x: -0, y: 0, z: 0.07}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rachel_Model_Adjusted:UnityFeederNode
+      parentName: Rachel(Clone)
+      position: {x: -0, y: -0.0048470753, z: 0.018012913}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.1, y: 1.1, z: 1.1}
+    - name: Rachel_Model_Adjusted:CharacterRoot
+      parentName: Rachel_Model_Adjusted:UnityFeederNode
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rachel_Model_Adjusted:Mesh
+      parentName: Rachel_Model_Adjusted:CharacterRoot
+      position: {x: -0, y: -1.0926024, z: 0.159581}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.01, y: 0.01, z: 0.01}
+    - name: Rachel_Model_Adjusted:MorphTargets
+      parentName: Rachel_Model_Adjusted:Mesh
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rachel_Model_Adjusted:SkinnedMesh
+      parentName: Rachel_Model_Adjusted:Mesh
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rachel_Model_Adjusted:MshRef
+      parentName: Rachel_Model_Adjusted:SkinnedMesh
+      position: {x: -0, y: 86.971436, z: 1.5630212}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rachel_Model_Adjusted:Body
+      parentName: Rachel_Model_Adjusted:MshRef
+      position: {x: -0, y: -86.971436, z: -1.5630212}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rachel_Model_Adjusted:ChrFemaleWriter_Hair
+      parentName: Rachel_Model_Adjusted:MshRef
+      position: {x: -5.465673, y: -86.971436, z: 7.397689}
+      rotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rachel_Model_Adjusted:polySurface2
+      parentName: Rachel_Model_Adjusted:ChrFemaleWriter_Hair
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rachel_Model_Adjusted:polySurface3
+      parentName: Rachel_Model_Adjusted:ChrFemaleWriter_Hair
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rachel_Model_Adjusted:polySurface4
+      parentName: Rachel_Model_Adjusted:ChrFemaleWriter_Hair
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rachel_Model_Adjusted:polySurface5
+      parentName: Rachel_Model_Adjusted:ChrFemaleWriter_Hair
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rachel_Model_Adjusted:polySurface6
+      parentName: Rachel_Model_Adjusted:ChrFemaleWriter_Hair
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rachel_Model_Adjusted:polySurface7
+      parentName: Rachel_Model_Adjusted:ChrFemaleWriter_Hair
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rachel_Model_Adjusted:polySurface8
+      parentName: Rachel_Model_Adjusted:ChrFemaleWriter_Hair
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rachel_Model_Adjusted:polySurface9
+      parentName: Rachel_Model_Adjusted:ChrFemaleWriter_Hair
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rachel_Model_Adjusted:polySurface10
+      parentName: Rachel_Model_Adjusted:ChrFemaleWriter_Hair
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rachel_Model_Adjusted:polySurface11
+      parentName: Rachel_Model_Adjusted:ChrFemaleWriter_Hair
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rachel_Model_Adjusted:polySurface12
+      parentName: Rachel_Model_Adjusted:ChrFemaleWriter_Hair
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rachel_Model_Adjusted:polySurface13
+      parentName: Rachel_Model_Adjusted:ChrFemaleWriter_Hair
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rachel_Model_Adjusted:polySurface14
+      parentName: Rachel_Model_Adjusted:ChrFemaleWriter_Hair
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rachel_Model_Adjusted:polySurface15
+      parentName: Rachel_Model_Adjusted:ChrFemaleWriter_Hair
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rachel_Model_Adjusted:polySurface16
+      parentName: Rachel_Model_Adjusted:ChrFemaleWriter_Hair
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rachel_Model_Adjusted:polySurface17
+      parentName: Rachel_Model_Adjusted:ChrFemaleWriter_Hair
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rachel_Model_Adjusted:polySurface18
+      parentName: Rachel_Model_Adjusted:ChrFemaleWriter_Hair
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rachel_Model_Adjusted:polySurface19
+      parentName: Rachel_Model_Adjusted:ChrFemaleWriter_Hair
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rachel_Model_Adjusted:polySurface20
+      parentName: Rachel_Model_Adjusted:ChrFemaleWriter_Hair
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rachel_Model_Adjusted:polySurface21
+      parentName: Rachel_Model_Adjusted:ChrFemaleWriter_Hair
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rachel_Model_Adjusted:polySurface22
+      parentName: Rachel_Model_Adjusted:ChrFemaleWriter_Hair
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rachel_Model_Adjusted:polySurface23
+      parentName: Rachel_Model_Adjusted:ChrFemaleWriter_Hair
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rachel_Model_Adjusted:polySurface24
+      parentName: Rachel_Model_Adjusted:ChrFemaleWriter_Hair
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rachel_Model_Adjusted:polySurface25
+      parentName: Rachel_Model_Adjusted:ChrFemaleWriter_Hair
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rachel_Model_Adjusted:polySurface26
+      parentName: Rachel_Model_Adjusted:ChrFemaleWriter_Hair
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rachel_Model_Adjusted:polySurface27
+      parentName: Rachel_Model_Adjusted:ChrFemaleWriter_Hair
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rachel_Model_Adjusted:polySurface28
+      parentName: Rachel_Model_Adjusted:ChrFemaleWriter_Hair
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rachel_Model_Adjusted:polySurface29
+      parentName: Rachel_Model_Adjusted:ChrFemaleWriter_Hair
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rachel_Model_Adjusted:polySurface30
+      parentName: Rachel_Model_Adjusted:ChrFemaleWriter_Hair
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rachel_Model_Adjusted:polySurface31
+      parentName: Rachel_Model_Adjusted:ChrFemaleWriter_Hair
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rachel_Model_Adjusted:polySurface32
+      parentName: Rachel_Model_Adjusted:ChrFemaleWriter_Hair
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rachel_Model_Adjusted:polySurface33
+      parentName: Rachel_Model_Adjusted:ChrFemaleWriter_Hair
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rachel_Model_Adjusted:polySurface34
+      parentName: Rachel_Model_Adjusted:ChrFemaleWriter_Hair
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rachel_Model_Adjusted:polySurface35
+      parentName: Rachel_Model_Adjusted:ChrFemaleWriter_Hair
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rachel_Model_Adjusted:polySurface36
+      parentName: Rachel_Model_Adjusted:ChrFemaleWriter_Hair
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rachel_Model_Adjusted:EyelashLfBottom
+      parentName: Rachel_Model_Adjusted:MshRef
+      position: {x: -0, y: -86.971436, z: -1.5630212}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rachel_Model_Adjusted:EyelashLfTop
+      parentName: Rachel_Model_Adjusted:MshRef
+      position: {x: -0, y: -86.971436, z: -1.5630212}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rachel_Model_Adjusted:EyelashRtBottom
+      parentName: Rachel_Model_Adjusted:MshRef
+      position: {x: -0, y: -86.971436, z: -1.5630212}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rachel_Model_Adjusted:EyelashRtTop
+      parentName: Rachel_Model_Adjusted:MshRef
+      position: {x: -0, y: -86.971436, z: -1.5630212}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rachel_Model_Adjusted:EyeLf
+      parentName: Rachel_Model_Adjusted:MshRef
+      position: {x: -0, y: -86.971436, z: -1.5630212}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rachel_Model_Adjusted:EyeRt
+      parentName: Rachel_Model_Adjusted:MshRef
+      position: {x: -0, y: -86.971436, z: -1.5630212}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rachel_Model_Adjusted:EyeShadowLf
+      parentName: Rachel_Model_Adjusted:MshRef
+      position: {x: -0, y: -86.971436, z: -1.5630212}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rachel_Model_Adjusted:EyeShadowRt
+      parentName: Rachel_Model_Adjusted:MshRef
+      position: {x: -0, y: -86.971436, z: -1.5630212}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rachel_Model_Adjusted:EyeShellLf
+      parentName: Rachel_Model_Adjusted:MshRef
+      position: {x: -0, y: -86.971436, z: -1.5630212}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rachel_Model_Adjusted:EyeShellRt
+      parentName: Rachel_Model_Adjusted:MshRef
+      position: {x: -0, y: -86.971436, z: -1.5630212}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rachel_Model_Adjusted:TeethLower
+      parentName: Rachel_Model_Adjusted:MshRef
+      position: {x: -0, y: -86.971436, z: -1.5630212}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rachel_Model_Adjusted:TeethUpper
+      parentName: Rachel_Model_Adjusted:MshRef
+      position: {x: -0, y: -86.971436, z: -1.5630212}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rachel_Model_Adjusted:Tongue
+      parentName: Rachel_Model_Adjusted:MshRef
+      position: {x: -0, y: -86.971436, z: -1.5630212}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rachel_Model_Adjusted:IctUnitySettings
+      parentName: Rachel_Model_Adjusted:UnityFeederNode
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 47f67b7954434fe4f89b14357fb8f56b,
+    type: 3}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
