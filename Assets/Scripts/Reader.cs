@@ -22,6 +22,11 @@ namespace Bvh
 
         IDictionary<string, GameObject> locations = new Dictionary<string, GameObject>();
 
+        public IDictionary<string, GameObject> Location
+        {
+            get { return locations; }
+        }
+
         public List<BVH> LoadedBVH
         {
             get { return allLoadedBVHs; }
@@ -44,6 +49,8 @@ namespace Bvh
             loadBVHType("SIZE");
 
             loadBVH("zero_pose");
+
+            registerRoom();
         }
 
         // Update is called once per frame
