@@ -12,11 +12,20 @@ namespace Bvh
 {
     public class Reader : MonoBehaviour
     {
+        // loaded bvh, outdated
+        private List<BVH> allLoadedBVHs = new List<BVH>();
         // where all loaded bvhs are stored
         // Edeitic
         private List<BVH> EDEICTICBVHs = new List<BVH>();
         private List<float[]> EDEICTICTimings = new List<float[]>();
         private List<BVH> SIZEBVHs = new List<BVH>();
+
+        IDictionary<string, GameObject> locations = new Dictionary<string, GameObject>();
+
+        public List<BVH> LoadedBVH
+        {
+            get { return allLoadedBVHs; }
+        }
 
         public List<BVH> EDEICTICBVH
         {
@@ -33,6 +42,8 @@ namespace Bvh
         {
             loadBVHType("EDEICTIC");
             loadBVHType("SIZE");
+
+            loadBVH("zero_pose");
         }
 
         // Update is called once per frame
@@ -64,6 +75,24 @@ namespace Bvh
                   // throw new Exception("Couldn't load bvh named " + i);
               }
               count += 1;
+            }
+        }
+
+        void loadBVH(string name)
+        {
+            BVH bvh = new BVH();
+            //when we get this from a dll we'll need to change this to something else
+            string path = "Assets/BVH/" + name + ".bvh";
+
+            try
+            {
+                bvh = LoadBVHFromAssets(path);
+                allLoadedBVHs.Add(bvh);
+            }
+            catch
+            {
+                //StartCoroutine(GetBVHFromServer(name));
+                throw new Exception("Couldn't load bvh named " + name);
             }
         }
 
@@ -268,6 +297,19 @@ namespace Bvh
             joint.channelOrder = channelOrder;
 
             return joint;
+        }
+
+        //Han get the location of all the according rooms
+        private void registerRoom()
+        {
+            GameObject[] rooms;
+
+            rooms = GameObject.FindGameObjectsWithTag("Location");
+
+            foreach (GameObject room in rooms)
+            {
+                locations.Add(new KeyValuePair<string, GameObject>(room.transform.name, room));
+            }
         }
     }
 }

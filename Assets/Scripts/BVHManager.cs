@@ -23,7 +23,7 @@ namespace Bvh
         // Total room number
         const int roomnum = 6;
 
-        Reader reader = new Reader();
+        //Reader reader = new Reader();
 
         Processor processor = new Processor();
 
