@@ -54,6 +54,8 @@
      <Compile Include="Assets\BVHReader.cs" />
      <Compile Include="Assets\Scripts\BVHClass.cs" />
      <Compile Include="Assets\Scripts\BVHManager.cs" />
+     <Compile Include="Assets\Scripts\BVHPicker.cs" />
+     <Compile Include="Assets\Scripts\CommandControl.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
      <Compile Include="Assets\Scripts\Processor.cs" />
      <Compile Include="Assets\Scripts\Reader.cs" />

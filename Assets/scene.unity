@@ -387,6 +387,8 @@ GameObject:
   - component: {fileID: 612413861}
   - component: {fileID: 612413862}
   - component: {fileID: 612413863}
+  - component: {fileID: 612413865}
+  - component: {fileID: 612413864}
   m_Layer: 0
   m_Name: BVHProcessor
   m_TagString: Untagged
@@ -441,6 +443,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25b3427e3a3c04cbc8691f59a7c7c9f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &612413864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 612413859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7466fa2fc748046aeb1629f01fa1d42c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bvhReader: {fileID: 816963491}
+--- !u!114 &612413865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 612413859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26143429facad48d7b86939afbbd8995, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bvhPicker: {fileID: 612413864}
 --- !u!1 &638730777
 GameObject:
   m_ObjectHideFlags: 0
@@ -581,6 +607,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &816963491 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114717351122640108, guid: a697ad1497d244b9e9506886f65f2eef,
+    type: 2}
+  m_PrefabInternal: {fileID: 1396170956}
+  m_Script: {fileID: 11500000, guid: 149793954d2a44961868c265182a5b84, type: 3}
 --- !u!1 &826248286
 GameObject:
   m_ObjectHideFlags: 0
@@ -808,6 +840,11 @@ Prefab:
       propertyPath: player
       value: 
       objectReference: {fileID: 612413863}
+    - target: {fileID: 114717351122640108, guid: a697ad1497d244b9e9506886f65f2eef,
+        type: 2}
+      propertyPath: commandControl
+      value: 
+      objectReference: {fileID: 612413865}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a697ad1497d244b9e9506886f65f2eef, type: 2}
   m_IsPrefabParent: 0
