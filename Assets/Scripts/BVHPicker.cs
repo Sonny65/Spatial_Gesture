@@ -57,8 +57,8 @@ namespace Bvh
                     {
                         tempBVH = motion;
                         distance = currentDistance;
-                        danceBVH.Hand = "Right";
-                        danceBVH.Handshift1 = targetpos - motionPosition;
+                        //danceBVH.Hand = "Right";
+                        //danceBVH.Handshift1 = targetpos - motionPosition;
                     }
                 }
                 JsonUtility.ToJson(danceBVH);
@@ -95,9 +95,9 @@ namespace Bvh
                     {
                         tempBVH = motion;
                         distance = currentDistance;
-                        danceBVH.Hand = "RightLeft";
-                        danceBVH.Handshift1 = targetpos - motionPosition1;
-                        danceBVH.Handshift2 = targetpos - motionPosition2;
+                        //danceBVH.Hand = "RightLeft";
+                        //danceBVH.Handshift1 = targetpos - motionPosition1;
+                        //danceBVH.Handshift2 = targetpos - motionPosition2;
                     }
                 }
                 JsonUtility.ToJson(danceBVH);
