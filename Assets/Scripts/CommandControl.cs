@@ -102,11 +102,11 @@ namespace Bvh
                 case "EDEICTIC":
                     return 0;
                 case "SIZE":
-                    return 3;
-                case "Path":
-                    return 4;
-                default:
                     return 1;
+                case "PATH":
+                    return 2;
+                default:
+                    return 3;
             }
         }
 

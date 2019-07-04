@@ -39,7 +39,7 @@ namespace Bvh
 
         private List<BVH> EDEICTICBVHs = new List<BVH>();
         private List<BVH> SIZEBVHs = new List<BVH>();
-        Vector3 pos = new Vector3(0, 0, 0);
+        private List<BVH> PATHBVHs = new List<BVH>();
 
         public List<BVH> EDEICT
         {
@@ -49,6 +49,11 @@ namespace Bvh
         public List<BVH> SIZE
         {
             get { return SIZEBVHs; }
+        }
+
+        public List<BVH> PATH
+        {
+            get { return PATHBVHs; }
         }
 
         public IDictionary<string, GameObject> LOC
@@ -84,6 +89,7 @@ namespace Bvh
             //Load different type of BVH
             EDEICTICBVHs = reader.EDEICTICBVH;
             SIZEBVHs = reader.SIZEBVH;
+            PATHBVHs = reader.PATHBVH;
             allLoadedBVHs = reader.LoadedBVH;
 
             bvh = allLoadedBVHs[currentBVH];

@@ -17,8 +17,8 @@ namespace Bvh
         // where all loaded bvhs are stored
         // Edeitic
         private List<BVH> EDEICTICBVHs = new List<BVH>();
-        private List<float[]> EDEICTICTimings = new List<float[]>();
         private List<BVH> SIZEBVHs = new List<BVH>();
+        private List<BVH> PATHBVHs = new List<BVH>();
 
         IDictionary<string, GameObject> locations = new Dictionary<string, GameObject>();
 
@@ -42,11 +42,17 @@ namespace Bvh
             get { return SIZEBVHs; }
         }
 
+        public List<BVH> PATHBVH
+        {
+            get { return PATHBVHs; }
+        }
+
         // Use this for initialization
         void Start()
         {
             loadBVHType("EDEICTIC");
             loadBVHType("SIZE");
+            loadBVHType("PATH");
 
             loadBVH("zero_pose");
 
@@ -143,13 +149,17 @@ namespace Bvh
             switch (type)
             {
                 case "EDEICTIC":
-                // EDEICTIC
-                EDEICTICBVHs.Add(abvh);
-                break;
+                    // EDEICTIC
+                    EDEICTICBVHs.Add(abvh);
+                    break;
                 case "SIZE":
-                // SIZE
-                SIZEBVHs.Add(abvh);
-                break;
+                    // SIZE
+                    SIZEBVHs.Add(abvh);
+                    break;
+                case "PATH":
+                    // SIZE
+                    PATHBVHs.Add(abvh);
+                    break;
                 default:
                 break;
             }
